@@ -24,9 +24,23 @@ pip install -r requirements.txt
 
 ---
 
- Setup your openai [API key](https://platform.openai.com/)
+Setup your openai [API key](https://platform.openai.com/)
 
 Remember to deactivate the virtual environment once you're done by simply typing:
 ```bash
 deactivate
 ```
+
+---
+
+## Set up your OAI_CONFIG_LIST file for autogen
+- Create a file named: OAI_CONFIG_LIST containing your API keys for OpenAI as demonstrated below:
+
+```
+[
+    {
+        "model": "gpt-4o",
+        "api_key": "YOUR API KEY HERE"
+    }
+]
+``` 
